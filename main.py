@@ -81,7 +81,7 @@ else:
         print ('==> Training with MobileNet..')
         net = MobileNet()
     elif (args.net == 'DPN92'):
-        print ('==> DPN92..')
+        print ('==> Training with DPN92..')
         net = DPN92()
     elif (args.net == 'SENet18'):
         print ('==> Training with SENet18..')
